@@ -1,0 +1,15 @@
+{
+  "name": "ezflix",
+  "version": "0.0.0",
+  "description": "Play videos from eztv torrents directly",
+  "bin": {
+    "ezflix": "./bin/ezflix",
+    "peerflix": "./node_modules/.bin/peerflix"
+  },
+  "author": "Peter Müller <munter@fumle.dk>",
+  "license": "MIT",
+  "dependencies": {
+    "eztv-query": "^0.1.0",
+    "peerflix": "^0.10.1"
+  }
+}
