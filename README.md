@@ -11,7 +11,9 @@ npm install -g Munter/ezflix
 ezflix latest big bang theory -m
 ```
 
-For peerflix options help: `ezflix -h`
+For peerflix options help: `ezflix -h`.
+
+For more details on how to ind what you are looking for, consult the [eztv-query README](https://github.com/Munter/eztv-query#query-syntax).
 
 License
 -------
