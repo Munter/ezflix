@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "eztv-query": "^0.1.0",
-    "peerflix": "^0.10.1"
+    "peerflix": "^0.10.10"
   }
 }
