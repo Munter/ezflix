@@ -1,33 +1,18 @@
 #!/usr/bin/env node
 
-var query = require('eztv-query');
-var Path = require('path');
-var args = process.argv.slice(2).filter(function (str) {
-    return str.indexOf('-') === 0;
-});
-var queryargs = process.argv.slice(2).filter(function (str) {
-    return str.indexOf('-') !== 0;
-});
-
+var eztvQuery = require('eztv-query');
 var spawn = require('child_process').spawn;
+var query = [], options = [];
+process.argv.slice(2).forEach(function (arg) {
+    (arg.indexOf('-') === 0 ? options : query).push(arg);
+});
 
-if (args.indexOf('-h') !== -1) {
-    spawn('peerflix',
-        args,
-        {
-            stdio: 'inherit'
-        });
-    return;
+if (options.indexOf('-h') !== -1) {
+    return spawn('peerflix', options, { stdio: 'inherit' });
 }
 
-query(queryargs.join(' '), function (err, episode) {
-    if (err) {
-        throw err;
-    }
+eztvQuery(query.join(' '), function (err, episode) {
+    if (err) { throw err; }
 
-    spawn('peerflix',
-        [episode.magnet].concat(args),
-        {
-            stdio: 'inherit'
-        });
+    spawn('peerflix', [episode.magnet].concat(options), { stdio: 'inherit' });
 });
