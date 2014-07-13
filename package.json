@@ -1,6 +1,6 @@
 {
   "name": "ezflix",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Stream video from eztv torrents directly into your favorite media player",
   "bin": {
     "ezflix": "./bin/ezflix",
