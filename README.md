@@ -11,7 +11,7 @@ npm install -g Munter/ezflix
 ezflix latest big bang theory -m
 ```
 
-For peerflix options help: `exflix -h`
+For peerflix options help: `ezflix -h`
 
 License
 -------
