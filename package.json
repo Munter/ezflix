@@ -1,7 +1,7 @@
 {
   "name": "ezflix",
   "version": "0.0.0",
-  "description": "Play videos from eztv torrents directly",
+  "description": "Stream video from eztv torrents directly into your favorite media player",
   "bin": {
     "ezflix": "./bin/ezflix",
     "peerflix": "./node_modules/.bin/peerflix"
