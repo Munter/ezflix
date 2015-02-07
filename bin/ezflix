@@ -11,8 +11,8 @@ if (options.indexOf('-h') !== -1) {
     return spawn('peerflix', options, { stdio: 'inherit' });
 }
 
-eztvQuery(query.join(' '), function (err, episode) {
-    if (err) { throw err; }
-
-    spawn('peerflix', [episode.magnet].concat(options), { stdio: 'inherit' });
-});
+eztvQuery(query.join(' '))
+    .then(function (magnet) {
+        spawn('peerflix', [magnet].concat(options), { stdio: 'inherit' });
+    })
+    .catch(console.error);
