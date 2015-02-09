@@ -19,8 +19,7 @@
     "tv"
   ],
   "bin": {
-    "ezflix": "./bin/ezflix",
-    "peerflix": "./node_modules/.bin/peerflix"
+    "ezflix": "./bin/ezflix"
   },
   "author": "Peter Müller <munter@fumle.dk>",
   "license": "MIT",

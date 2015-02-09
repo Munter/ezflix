@@ -2,17 +2,19 @@
 
 var eztvQuery = require('eztv-query');
 var spawn = require('child_process').spawn;
+var peerflixPath = __dirname + '/../node_modules/peerflix/app.js';
 var query = [], options = [];
+
 process.argv.slice(2).forEach(function (arg) {
     (arg.indexOf('-') === 0 ? options : query).push(arg);
 });
 
 if (options.indexOf('-h') !== -1) {
-    return spawn('peerflix', options, { stdio: 'inherit' });
+    return spawn(peerflixPath, options, { stdio: 'inherit' });
 }
 
 eztvQuery(query.join(' '))
     .then(function (magnet) {
-        spawn('peerflix', [magnet].concat(options), { stdio: 'inherit' });
+        spawn(peerflixPath, [magnet].concat(options), { stdio: 'inherit' });
     })
     .catch(console.error);
