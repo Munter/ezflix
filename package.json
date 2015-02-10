@@ -18,6 +18,9 @@
     "series",
     "tv"
   ],
+  "scripts": {
+    "test": "jshint bin/*"
+  },
   "bin": {
     "ezflix": "./bin/ezflix"
   },
@@ -26,5 +29,8 @@
   "dependencies": {
     "eztv-query": "^1.0.0",
     "peerflix": "^0.25.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.6.0"
   }
 }
