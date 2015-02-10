@@ -1,6 +1,6 @@
 {
   "name": "ezflix",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Stream video from eztv torrents directly into your favorite media player",
   "repository": "git://github.com/Munter/ezflix.git",
   "bugs": {
