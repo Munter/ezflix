@@ -1,5 +1,11 @@
 ezflix
-==========
+======
+
+[![NPM version](https://badge.fury.io/js/ezflix.svg)](http://badge.fury.io/js/ezflix)
+[![Build Status](https://travis-ci.org/Munter/ezflix.svg?branch=master)](https://travis-ci.org/Munter/ezflix)
+[![Coverage Status](https://img.shields.io/coveralls/Munter/ezflix.svg?style=flat)](https://coveralls.io/r/Munter/ezflix?branch=master)
+[![Dependency Status](https://david-dm.org/Munter/ezflix.svg)](https://david-dm.org/Munter/ezflix)
+
 Play a video from an eztv torrent diretly in your preferred media player.
 
 ezflix combines the query syntax of [eztv-query](https://github.com/Munter/eztv-query) with the video playing capabilities of [peerflix](https://github.com/mafintosh/peerflix). Option arguments are passed to peerflix while non-otion arguments are passed to eztv-query.
