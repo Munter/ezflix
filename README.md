@@ -8,7 +8,7 @@ ezflix
 
 Play a video from an eztv torrent diretly in your preferred media player.
 
-ezflix combines the query syntax of [eztv-query](https://github.com/Munter/eztv-query) with the video playing capabilities of [peerflix](https://github.com/mafintosh/peerflix). Option arguments are passed to peerflix while non-otion arguments are passed to eztv-query.
+ezflix combines the query syntax of [eztv-query](https://github.com/Munter/eztv-query) with the video playing capabilities of [peerflix](https://github.com/mafintosh/peerflix). Option arguments are passed to peerflix while non-option arguments are passed to eztv-query.
 
 Installation and usage
 ----------------------
