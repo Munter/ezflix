@@ -6,7 +6,7 @@ ezflix
 [![Coverage Status](https://img.shields.io/coveralls/Munter/ezflix.svg?style=flat)](https://coveralls.io/r/Munter/ezflix?branch=master)
 [![Dependency Status](https://david-dm.org/Munter/ezflix.svg)](https://david-dm.org/Munter/ezflix)
 
-Play a video from an eztv torrent diretly in your preferred media player.
+Play a video from an eztv torrent directly in your preferred media player.
 
 ezflix combines the query syntax of [eztv-query](https://github.com/Munter/eztv-query) with the video playing capabilities of [peerflix](https://github.com/mafintosh/peerflix). Option arguments are passed to peerflix while non-option arguments are passed to eztv-query.
 
@@ -19,7 +19,7 @@ ezflix latest big bang theory -m
 
 For peerflix options help: `ezflix -h`.
 
-For more details on how to ind what you are looking for, consult the [eztv-query README](https://github.com/Munter/eztv-query#query-syntax).
+For more details on how to find what you are looking for, consult the [eztv-query README](https://github.com/Munter/eztv-query#query-syntax).
 
 License
 -------
