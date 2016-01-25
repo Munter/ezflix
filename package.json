@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "eztv-query": "^1.0.0",
-    "peerflix": "0.32.2"
+    "peerflix": "0.32.4"
   },
   "devDependencies": {
     "jshint": "^2.6.0"
