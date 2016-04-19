@@ -31,6 +31,6 @@
     "peerflix": "0.32.4"
   },
   "devDependencies": {
-    "jshint": "^2.6.0"
+    "jshint": "^2.9.2"
   }
 }
